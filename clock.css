@@ -1,0 +1,82 @@
+body{
+    font-family: "sans-serif";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #020100 url(images/clock2.jpg) no-repeat center;
+    background-position: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 10px solid #00ff15;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ff0000;
+    font-size: 45px;
+    font-family: "digit";
+    border-radius: 50%;
+    background: #020100;
+    box-shadow: 
+    0 0 5px #020100,
+    0 0 10px #020100,
+    0 0 15px #020100;
+}
+.blink-colon {
+    animation: blink is infinite linear;
+}
+@keyframes blink{
+    0%, 100% {
+        opacity: 1;
+    }
+    30%{
+        opacity: 0.4;
+    }
+}
+.time-container {
+    font-size: 24px;
+    text-align: center;
+    color: #d9ff00;
+}
+.date-container {
+    margin-top: 25px;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    font-family: "digit";
+    color: #d9ff00;
+}
+.main-footer{
+	background-color: #050200;
+	text-align: center;
+}
+
+.main-footer .logo{
+	margin-bottom: 20px;
+}
+
+.main-footer .text{
+	font-size: 16px;
+	line-height: 22px;
+	color: #21f006;
+	margin-bottom: 20px;
+}
+
+.main-footer .copyright-text{
+	font-size: 14px;
+	color: #f0eff6;
+}
+
+.main-footer .copyright-text a{
+	font-size: 14px;
+	color: #0099ff;
+	text-decoration: underline;
+}
