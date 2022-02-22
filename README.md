@@ -1,2 +1,2 @@
 This is a digital clock..
-made by my master kumar vicku 
+see here- https://kumarvicku.github.io/digital_clock/
